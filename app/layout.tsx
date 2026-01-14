@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Raul Nikki Game Tracker: Bang Bang Your Dead",
+  title: "Raul Nikki Game Tracker: Dust to Dust v2",
   description: "Track your game tournaments and matches",
 };
 
