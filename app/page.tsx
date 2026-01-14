@@ -35,6 +35,7 @@ export default function Home() {
       level: 5,
       hp: 45,
       maxHp: 45,
+      customImage: "/images/raul.jpg",
       ac: 16,
       spellSlots: 0,
       conditions: [],
