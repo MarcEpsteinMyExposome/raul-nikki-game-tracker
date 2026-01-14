@@ -26,6 +26,7 @@ interface Monster {
 }
 
 export default function Home() {
+  // Latest version with updated title and Raul image
   const [activeTab, setActiveTab] = useState<"dashboard" | "characters" | "combat" | "monsters">("dashboard");
   const [characters, setCharacters] = useState<Character[]>([
     {
@@ -210,7 +211,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800">
       <nav className="bg-slate-950 border-b border-slate-700">
         <div className="max-w-7xl mx-auto px-6 py-4">
-          <h1 className="text-3xl font-bold text-amber-400">🔫 Raul Nikki Game Tracker: Bang Your Dead</h1>
+          <h1 className="text-3xl font-bold text-amber-400">🔫 Raul Nikki Game Tracker: Dust to Dust</h1>
           <p className="text-slate-400 text-sm mt-1">Manage your team and matches</p>
         </div>
       </nav>
