@@ -11,6 +11,37 @@ This application helps players and tournament organizers track:
 - Enemy team matchups
 - Mission progress
 
+## How to Run
+
+### Option 1: Local Development (Fastest for Testing)
+
+1. Open the project in Visual Studio Code
+2. Open the integrated terminal (`` Ctrl+` `` or `View > Terminal`)
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and navigate to: **http://localhost:3000/**
+5. The app will hot-reload as you make changes to files
+
+### Option 2: Production Deployment (Vercel)
+
+**Live URL:** https://raul-nikki-game-tracker-git-main-marc-epsteins-projects.vercel.app/
+
+**To deploy changes:**
+1. Open Visual Studio Code
+2. Make your code changes
+3. Commit and push to GitHub:
+   ```bash
+   git add .
+   git commit -m "Your change description"
+   git push
+   ```
+4. Wait 1-2 minutes for Vercel to automatically deploy
+5. Refresh the live URL to see changes
+
+**Note:** Vercel automatically deploys whenever you push to the `main` branch.
+
 ## Tech Stack
 
 - **Framework**: Next.js 16.1 (App Router)
